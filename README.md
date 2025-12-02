@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🚀 AI YouTube Thumbnail Architect
 
-# Run and deploy your AI Studio app
+**A Click-Through Rate (CTR) optimization tool built with Google Gemini 1.5 Pro.**
 
-This contains everything you need to run your app locally.
+## 📋 Overview
+As a Digital Marketer, I know that the best video content fails if the packaging isn't right. I built this tool to automate the creative strategy behind high-performing YouTube thumbnails.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Xn1I9TTc6jmymSZrDH1UIQTqWtJC9pyP
+Instead of guessing, this tool uses AI to generate:
+* **Psychological Hooks:** Triggers based on curiosity, urgency, or transformation.
+* **Visual Composition:** Detailed scene descriptions using the Rule of Thirds.
+* **Color Strategy:** Hex codes selected for psychological impact.
+* **Generative Prompts:** Ready-to-copy prompts for Midjourney, DALL-E 3, or Imagen.
 
-## Run Locally
+## ⚙️ How It Works
+This repository contains the Python code to interact with the Google Gemini API. However, you can also use the **System Instructions** below directly in Google AI Studio or ChatGPT.
 
-**Prerequisites:**  Node.js
+### The System Prompt
+If you want to run this manually, paste the following into your AI's "System Instructions":
 
+> **Role:** You are a World-Class YouTube Thumbnail Architect and Click-Through Rate (CTR) Strategist.
+> **Objective:** When I provide a Video Title, generate 3 distinct thumbnail concepts.
+> **Output Structure:**
+> 1. The Hook (Psychological trigger)
+> 2. Visual Scene (Foreground/Background/Expression)
+> 3. Text Overlay (Max 5 words, high contrast)
+> 4. Color Palette (Hex codes + reasoning)
+> 5. Image Generation Prompt (Technical prompt for Midjourney/DALL-E)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Installation & Usage (Python)
+1.  Clone this repository.
+2.  Install the Google Generative AI library: `pip install -q -U google-generativeai`
+3.  Set your `GOOGLE_API_KEY` in your environment variables.
+4.  Run the script to generate concepts for your next video.
+
+## 👨‍💻 About the Author
+Built by **Phillip**, a Digital Marketing Specialist upskilling in AI.
+* [Connect on LinkedIn](https://www.linkedin.com/in/philliptwyforddigitalspecialist/)
